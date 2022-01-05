@@ -1,0 +1,332 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ynumedical"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:26:5-79
+13-->[com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:26:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
+14-->[com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:27:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
+15-->[com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+17-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+18    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+18-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/anik/.gradle/caches/transforms-3/be8acfc1224c2df79de1429316a11361/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/anik/.gradle/caches/transforms-3/be8acfc1224c2df79de1429316a11361/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+19
+20    <application
+20-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:5:5-44:19
+21        android:allowBackup="true"
+21-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:6:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.5.0] /Users/anik/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:7:9-43
+25        android:label="@string/app_name"
+25-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:8:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:9:9-54
+27        android:supportsRtl="true"
+27-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:10:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.B07Project" >
+29-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:11:9-48
+30        <activity
+30-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:12:9-14:39
+31            android:name="com.example.ynumedical.user_information.PatientViewVisitedDoctorsActivity"
+31-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:13:13-101
+32            android:exported="true" />
+32-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:14:13-36
+33        <activity
+33-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:15:9-17:39
+34            android:name="com.example.ynumedical.appointment_activities.PatientViewPastAppointmentActivity"
+34-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:16:13-108
+35            android:exported="true" />
+35-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:17:13-36
+36        <activity
+36-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:18:9-20:39
+37            android:name="com.example.ynumedical.appointment_activities.DoctorViewAvailabilityActivity"
+37-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:19:13-104
+38            android:exported="true" />
+38-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:20:13-36
+39        <activity
+39-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:21:9-23:39
+40            android:name="com.example.ynumedical.user_information.DoctorPatientCheckupActivity"
+40-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:22:13-96
+41            android:exported="true" />
+41-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:23:13-36
+42        <activity
+42-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:24:9-26:39
+43            android:name="com.example.ynumedical.appointment_activities.PatientBookAppointmentActivity"
+43-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:25:13-104
+44            android:exported="true" />
+44-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:26:13-36
+45        <activity
+45-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:27:9-29:39
+46            android:name="com.example.ynumedical.appointment_activities.DoctorViewAppointmentActivity"
+46-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:28:13-103
+47            android:exported="true" />
+47-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:29:13-36
+48        <activity android:name="com.example.ynumedical.appointment_activities.PatientViewAppointmentActivity" />
+48-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:30:9-113
+48-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:30:19-110
+49        <activity android:name="com.example.ynumedical.appointment_activities.PatientChooseDoctorActivity" />
+49-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:31:9-110
+49-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:31:19-107
+50        <activity android:name="com.example.ynumedical.user_information.PatientActivity" />
+50-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:32:9-92
+50-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:32:19-89
+51        <activity android:name="com.example.ynumedical.user_information.DoctorActivity" />
+51-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:33:9-91
+51-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:33:19-88
+52        <activity android:name="com.example.ynumedical.user_information.PatientSignup" />
+52-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:34:9-90
+52-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:34:19-87
+53        <activity android:name="com.example.ynumedical.user_information.DoctorSignup" />
+53-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:35:9-89
+53-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:35:19-86
+54        <activity android:name="com.example.ynumedical.LoginPage" />
+54-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:36:9-69
+54-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:36:19-66
+55        <activity android:name="com.example.ynumedical.MainActivity" >
+55-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:37:9-43:20
+55-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:37:19-69
+56            <intent-filter>
+56-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:38:13-42:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:39:17-69
+57-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:39:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:41:17-77
+59-->/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:41:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <service
+63-->[com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:30:9-36:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:31:13-84
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:32:13-37
+67            <meta-data
+67-->[com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+68                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+68-->[com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:32:13-34:85
+71                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+71-->[com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:33:17-109
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:34:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:20:13-22:85
+74                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+74-->[com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:21:17-111
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:22:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+77                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+77-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:18:13-20:85
+80                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+80-->[com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:19:17-111
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:20:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+83                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+83-->[com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+85            <meta-data
+85-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+86                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+86-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+89                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+89-->[com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+91        </service>
+92
+93        <activity
+93-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+94            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+94-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+95            android:excludeFromRecents="true"
+95-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+96            android:exported="true"
+96-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+97            android:launchMode="singleTask"
+97-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+98-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+99            <intent-filter>
+99-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+100                <action android:name="android.intent.action.VIEW" />
+100-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+100-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+102-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+103                <category android:name="android.intent.category.BROWSABLE" />
+103-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+103-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+104
+105                <data
+105-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+106                    android:host="firebase.auth"
+106-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+107                    android:path="/"
+107-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+108                    android:scheme="genericidp" />
+108-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+109            </intent-filter>
+110        </activity>
+111        <activity
+111-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+112            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+112-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+113            android:excludeFromRecents="true"
+113-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+114            android:exported="true"
+114-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+115            android:launchMode="singleTask"
+115-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+116-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+117            <intent-filter>
+117-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+118                <action android:name="android.intent.action.VIEW" />
+118-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+118-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+119
+120                <category android:name="android.intent.category.DEFAULT" />
+120-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+120-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+121                <category android:name="android.intent.category.BROWSABLE" />
+121-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+121-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+122
+123                <data
+123-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+124                    android:host="firebase.auth"
+124-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+125                    android:path="/"
+125-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+126                    android:scheme="recaptcha" />
+126-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+127            </intent-filter>
+128        </activity>
+129
+130        <service
+130-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+131            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+131-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+132            android:enabled="true"
+132-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+133            android:exported="false" >
+133-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+134            <intent-filter>
+134-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+135                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+135-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+135-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+136
+137                <category android:name="android.intent.category.DEFAULT" />
+137-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+137-->[com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+138            </intent-filter>
+139        </service>
+140
+141        <activity
+141-->[com.google.android.gms:play-services-base:17.1.0] /Users/anik/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+142            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+142-->[com.google.android.gms:play-services-base:17.1.0] /Users/anik/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+143            android:exported="false"
+143-->[com.google.android.gms:play-services-base:17.1.0] /Users/anik/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+144            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+144-->[com.google.android.gms:play-services-base:17.1.0] /Users/anik/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+145
+146        <provider
+146-->[com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+147            android:name="com.google.firebase.provider.FirebaseInitProvider"
+147-->[com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+148            android:authorities="com.example.ynumedical.firebaseinitprovider"
+148-->[com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+149            android:directBootAware="true"
+149-->[com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+150            android:exported="false"
+150-->[com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+151            android:initOrder="100" />
+151-->[com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+152
+153        <receiver
+153-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+154            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+154-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+155            android:enabled="true"
+155-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+156            android:exported="false" >
+156-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+157        </receiver>
+158
+159        <service
+159-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+160            android:name="com.google.android.gms.measurement.AppMeasurementService"
+160-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+161            android:enabled="true"
+161-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+162            android:exported="false" />
+162-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+163        <service
+163-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+164            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+164-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+165            android:enabled="true"
+165-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+166            android:exported="false"
+166-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+167            android:permission="android.permission.BIND_JOB_SERVICE" />
+167-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+168
+169        <meta-data
+169-->[com.google.android.gms:play-services-basement:18.0.0] /Users/anik/.gradle/caches/transforms-3/24ae2deaf93d3ebe05544011e679deb8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+170            android:name="com.google.android.gms.version"
+170-->[com.google.android.gms:play-services-basement:18.0.0] /Users/anik/.gradle/caches/transforms-3/24ae2deaf93d3ebe05544011e679deb8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+171            android:value="@integer/google_play_services_version" />
+171-->[com.google.android.gms:play-services-basement:18.0.0] /Users/anik/.gradle/caches/transforms-3/24ae2deaf93d3ebe05544011e679deb8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+172    </application>
+173
+174</manifest>

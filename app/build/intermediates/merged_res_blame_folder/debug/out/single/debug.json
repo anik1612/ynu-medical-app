@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_doctor_signup.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_doctor_signup.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/menu_menu_patient_information.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/menu/menu_patient_information.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/drawable_medicalclinicimg.jpg.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/drawable/medicalclinicimg.jpg"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/drawable_ic_baseline_check_24.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/drawable/ic_baseline_check_24.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_patient_view_appointment.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_patient_view_appointment.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_patient_view_visited_doctors.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_patient_view_visited_doctors.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_patient_view_past_appointment.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_patient_view_past_appointment.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_content_scrolling.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/content_scrolling.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_fragment_second.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/fragment_second.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_fragment_first.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/fragment_first.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_doctor_patient_checkup.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_doctor_patient_checkup.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_login_page.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_login_page.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_doctor.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_doctor.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_content_doctor_signup.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/content_doctor_signup.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/drawable_doctor.jpg.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/drawable/doctor.jpg"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout-w1240dp_content_scrolling.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout-w1240dp/content_scrolling.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_doctor_view_appointment.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_doctor_view_appointment.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout-w936dp_content_scrolling.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout-w936dp/content_scrolling.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_patient_choose_doctor.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_patient_choose_doctor.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_patient_signup.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_patient_signup.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_doctor_view_availability.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_doctor_view_availability.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/navigation_nav_graph2.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/navigation/nav_graph2.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_patient_book_appointment.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_patient_book_appointment.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/navigation_nav_graph.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/build/intermediates/merged_res/debug/layout_activity_patient.xml.flat",
+        "source": "/Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/res/layout/activity_patient.xml"
+    }
+]

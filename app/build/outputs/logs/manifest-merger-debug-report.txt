@@ -1,0 +1,697 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:2:1-46:12
+MERGED from [androidx.databinding:viewbinding:7.0.0] /Users/anik/.gradle/caches/transforms-3/890ead7a225e8e8adbabf1126908806d/transformed/viewbinding-7.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.3.0] /Users/anik/.gradle/caches/transforms-3/b72ebef94880cdc900545e43521a4d2f/transformed/navigation-ui-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/anik/.gradle/caches/transforms-3/a4db12b072650e13bc36a4fc9443bd47/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/anik/.gradle/caches/transforms-3/519dfdc06ca5302663403b0b1c09ad97/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/anik/.gradle/caches/transforms-3/2fb21fbcddcb4a1a19c9cd01cfb49ddb/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] /Users/anik/.gradle/caches/transforms-3/0d89d7f03e7b54075599cb2392c6b0fc/transformed/navigation-fragment-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/anik/.gradle/caches/transforms-3/11108c40f6b4b45114902fb5915eea42/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/anik/.gradle/caches/transforms-3/4c85c356f92b73b2caf8ebde0606e00e/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/anik/.gradle/caches/transforms-3/bbd0db670b9e967ac2d81e2396acc52e/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /Users/anik/.gradle/caches/transforms-3/fa577c448a4470607199f417bb42a1fb/transformed/firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/anik/.gradle/caches/transforms-3/6a8526c0a916dd9f10beea66e0647d2e/transformed/firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/anik/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/anik/.gradle/caches/transforms-3/451a339f9d7b85ee9761c9ed0292dc01/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/anik/.gradle/caches/transforms-3/2581d85fc0115947fa8dd61170fef907/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/anik/.gradle/caches/transforms-3/ad00e687029d6285b30ef24b68df00f9/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/anik/.gradle/caches/transforms-3/9f6733b0c4b609a882c1c324613f0567/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/anik/.gradle/caches/transforms-3/b40d675db1d8c4f3d4c27b6c92ca64e7/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/anik/.gradle/caches/transforms-3/de2025e10aba0f016ce825fe756a311e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/anik/.gradle/caches/transforms-3/9b06a609ac6e103661f3eb212be424d1/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/anik/.gradle/caches/transforms-3/be8acfc1224c2df79de1429316a11361/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/4c3808b388e597e265ab83d575a5d780/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/anik/.gradle/caches/transforms-3/95d3731dfc825bdcfb2d0ccab26ee3ed/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/anik/.gradle/caches/transforms-3/ecfa95db6c90456b9c3d62be6e40af85/transformed/firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/anik/.gradle/caches/transforms-3/c3a4ffde565e669fffa13b86ca1f1516/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/anik/.gradle/caches/transforms-3/cc80685d731bda696262ba37c4571488/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/anik/.gradle/caches/transforms-3/24ae2deaf93d3ebe05544011e679deb8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/anik/.gradle/caches/transforms-3/65d1d73e580ba527f5c80b9f2f30e9eb/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] /Users/anik/.gradle/caches/transforms-3/113a6ca7f81f3274b6974ac42589dd73/transformed/navigation-runtime-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/anik/.gradle/caches/transforms-3/f0727e18754303d1e3315ddda5dbdbda/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/anik/.gradle/caches/transforms-3/fb82cd814d6b88b1ca417815991711ed/transformed/appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/anik/.gradle/caches/transforms-3/b27bb07903eaf3cd5f3a3227bb279aad/transformed/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/anik/.gradle/caches/transforms-3/3204680fb4b944995355cb67e2d4416a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/anik/.gradle/caches/transforms-3/429829a900074ab331793515e7b0d630/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/anik/.gradle/caches/transforms-3/366d65d445297f8fde8f73cd755ab914/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/anik/.gradle/caches/transforms-3/fdd32f901d4bb1d5d33bddeb84a905c7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/anik/.gradle/caches/transforms-3/29de5575f9927728f2259ca80dea1987/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] /Users/anik/.gradle/caches/transforms-3/be0e5dbc3ffa9d55c859863f50a3932c/transformed/drawerlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/anik/.gradle/caches/transforms-3/cb56a5c2bd722b36acb08c4428763c51/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/anik/.gradle/caches/transforms-3/5b6087d2a888dc8cd66652dafdfd98d8/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/anik/.gradle/caches/transforms-3/b00d5cc1ee2b8898b26695c875041071/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/anik/.gradle/caches/transforms-3/dbe6632ea1830f7b528d4645a38df2bc/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/anik/.gradle/caches/transforms-3/59de3fbf10637c91661e64b379908af7/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/anik/.gradle/caches/transforms-3/dbc66d810aadfcbae204aa9f2c96beac/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/anik/.gradle/caches/transforms-3/2f7c01c10d3d7134859f80fe1123d2f3/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.0] /Users/anik/.gradle/caches/transforms-3/cd7eb0f95dc2193681132d37a0a6e3c3/transformed/navigation-common-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/anik/.gradle/caches/transforms-3/179bb343f7a6cb4f265a076d12a07093/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/anik/.gradle/caches/transforms-3/0d6128869f3f5054df81b46d7aeb5c68/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/anik/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/anik/.gradle/caches/transforms-3/048a965a9baba68ce9534c35414bd90c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/anik/.gradle/caches/transforms-3/a99a6a3ef3fca7f75c17b47439ee7e66/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/anik/.gradle/caches/transforms-3/90d7d96226831d3e0023a5953d8ff3fd/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/anik/.gradle/caches/transforms-3/dc586ffb92118e9bf45ac9249032d001/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/anik/.gradle/caches/transforms-3/2818312e8fa5a85d4358b773232e703c/transformed/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/anik/.gradle/caches/transforms-3/83ef5a2163392347fc8488b35f811353/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/anik/.gradle/caches/transforms-3/73024ad51a4df5238a90a9d634a365dd/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/anik/.gradle/caches/transforms-3/11a446e7d11d9332c5acc6192805398e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/anik/.gradle/caches/transforms-3/5ef5de6b86aba927bed289e100b66e4d/transformed/firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/anik/.gradle/caches/transforms-3/c11d12a2baf277b837d8806c6f87fc44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/anik/.gradle/caches/transforms-3/e8ef85e514fc42cbbad75b9b3a8e6cfc/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/anik/.gradle/caches/transforms-3/5d1418b340b83a1b53ef0e186932447b/transformed/lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/anik/.gradle/caches/transforms-3/dd74e86cd0fe077f16c65cf8f486f9f4/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/anik/.gradle/caches/transforms-3/5a79dbaec78c55095c3b2993d1c2e4b8/transformed/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/anik/.gradle/caches/transforms-3/d2e0dab81ac4ce61a6a5b8e8d3d5f158/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/anik/.gradle/caches/transforms-3/4fc344dd16f2c32b18557242fa2f903e/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/anik/.gradle/caches/transforms-3/d29c7a8a10622f03cba94cde485782f1/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/anik/.gradle/caches/transforms-3/607ff11b516ddc96487249f810d47dc2/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/anik/.gradle/caches/transforms-3/e0704842989cea6c82cf2a91963d9437/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/anik/.gradle/caches/transforms-3/bcde78bc88dd626eb99fc345b357b7d4/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/anik/.gradle/caches/transforms-3/0e4fe9ac0069942711d5424f8db25fa9/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.41.0] /Users/anik/.gradle/caches/transforms-3/5a34276306840fe4f232f830cdf6420d/transformed/grpc-android-1.41.0/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:2:1-46:12
+	package
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:2:1-46:12
+		INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:2:1-46:12
+		INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:5:5-44:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/anik/.gradle/caches/transforms-3/a4db12b072650e13bc36a4fc9443bd47/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/anik/.gradle/caches/transforms-3/a4db12b072650e13bc36a4fc9443bd47/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/anik/.gradle/caches/transforms-3/519dfdc06ca5302663403b0b1c09ad97/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/anik/.gradle/caches/transforms-3/519dfdc06ca5302663403b0b1c09ad97/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/anik/.gradle/caches/transforms-3/bbd0db670b9e967ac2d81e2396acc52e/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/anik/.gradle/caches/transforms-3/bbd0db670b9e967ac2d81e2396acc52e/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /Users/anik/.gradle/caches/transforms-3/fa577c448a4470607199f417bb42a1fb/transformed/firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /Users/anik/.gradle/caches/transforms-3/fa577c448a4470607199f417bb42a1fb/transformed/firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/anik/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/anik/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/anik/.gradle/caches/transforms-3/451a339f9d7b85ee9761c9ed0292dc01/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/anik/.gradle/caches/transforms-3/451a339f9d7b85ee9761c9ed0292dc01/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/anik/.gradle/caches/transforms-3/2581d85fc0115947fa8dd61170fef907/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/anik/.gradle/caches/transforms-3/2581d85fc0115947fa8dd61170fef907/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/anik/.gradle/caches/transforms-3/ad00e687029d6285b30ef24b68df00f9/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/anik/.gradle/caches/transforms-3/ad00e687029d6285b30ef24b68df00f9/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/anik/.gradle/caches/transforms-3/9f6733b0c4b609a882c1c324613f0567/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/anik/.gradle/caches/transforms-3/9f6733b0c4b609a882c1c324613f0567/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/anik/.gradle/caches/transforms-3/de2025e10aba0f016ce825fe756a311e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/anik/.gradle/caches/transforms-3/de2025e10aba0f016ce825fe756a311e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/anik/.gradle/caches/transforms-3/9b06a609ac6e103661f3eb212be424d1/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/anik/.gradle/caches/transforms-3/9b06a609ac6e103661f3eb212be424d1/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/anik/.gradle/caches/transforms-3/be8acfc1224c2df79de1429316a11361/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/anik/.gradle/caches/transforms-3/be8acfc1224c2df79de1429316a11361/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/anik/.gradle/caches/transforms-3/95d3731dfc825bdcfb2d0ccab26ee3ed/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/anik/.gradle/caches/transforms-3/95d3731dfc825bdcfb2d0ccab26ee3ed/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/anik/.gradle/caches/transforms-3/c3a4ffde565e669fffa13b86ca1f1516/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/anik/.gradle/caches/transforms-3/c3a4ffde565e669fffa13b86ca1f1516/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/anik/.gradle/caches/transforms-3/cc80685d731bda696262ba37c4571488/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/anik/.gradle/caches/transforms-3/cc80685d731bda696262ba37c4571488/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/anik/.gradle/caches/transforms-3/24ae2deaf93d3ebe05544011e679deb8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/anik/.gradle/caches/transforms-3/24ae2deaf93d3ebe05544011e679deb8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.5.0] /Users/anik/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/anik/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/anik/.gradle/caches/transforms-3/c11d12a2baf277b837d8806c6f87fc44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/anik/.gradle/caches/transforms-3/c11d12a2baf277b837d8806c6f87fc44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/anik/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:11:9-48
+activity#com.example.ynumedical.user_information.PatientViewVisitedDoctorsActivity
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:12:9-14:39
+	android:exported
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:13:13-101
+activity#com.example.ynumedical.appointment_activities.PatientViewPastAppointmentActivity
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:15:9-17:39
+	android:exported
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:16:13-108
+activity#com.example.ynumedical.appointment_activities.DoctorViewAvailabilityActivity
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:18:9-20:39
+	android:exported
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:19:13-104
+activity#com.example.ynumedical.user_information.DoctorPatientCheckupActivity
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:21:9-23:39
+	android:exported
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:22:13-96
+activity#com.example.ynumedical.appointment_activities.PatientBookAppointmentActivity
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:24:9-26:39
+	android:exported
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:25:13-104
+activity#com.example.ynumedical.appointment_activities.DoctorViewAppointmentActivity
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:27:9-29:39
+	android:exported
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:28:13-103
+activity#com.example.ynumedical.appointment_activities.PatientViewAppointmentActivity
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:30:9-113
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:30:19-110
+activity#com.example.ynumedical.appointment_activities.PatientChooseDoctorActivity
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:31:9-110
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:31:19-107
+activity#com.example.ynumedical.user_information.PatientActivity
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:32:9-92
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:32:19-89
+activity#com.example.ynumedical.user_information.DoctorActivity
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:33:9-91
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:33:19-88
+activity#com.example.ynumedical.user_information.PatientSignup
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:34:9-90
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:34:19-87
+activity#com.example.ynumedical.user_information.DoctorSignup
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:35:9-89
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:35:19-86
+activity#com.example.ynumedical.LoginPage
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:36:9-69
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:36:19-66
+activity#com.example.ynumedical.MainActivity
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:37:9-43:20
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:37:19-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml:41:27-74
+uses-sdk
+INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.0] /Users/anik/.gradle/caches/transforms-3/890ead7a225e8e8adbabf1126908806d/transformed/viewbinding-7.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.0] /Users/anik/.gradle/caches/transforms-3/890ead7a225e8e8adbabf1126908806d/transformed/viewbinding-7.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.3.0] /Users/anik/.gradle/caches/transforms-3/b72ebef94880cdc900545e43521a4d2f/transformed/navigation-ui-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0] /Users/anik/.gradle/caches/transforms-3/b72ebef94880cdc900545e43521a4d2f/transformed/navigation-ui-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/anik/.gradle/caches/transforms-3/a4db12b072650e13bc36a4fc9443bd47/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/anik/.gradle/caches/transforms-3/a4db12b072650e13bc36a4fc9443bd47/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/anik/.gradle/caches/transforms-3/519dfdc06ca5302663403b0b1c09ad97/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/anik/.gradle/caches/transforms-3/519dfdc06ca5302663403b0b1c09ad97/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/anik/.gradle/caches/transforms-3/2fb21fbcddcb4a1a19c9cd01cfb49ddb/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/anik/.gradle/caches/transforms-3/2fb21fbcddcb4a1a19c9cd01cfb49ddb/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] /Users/anik/.gradle/caches/transforms-3/0d89d7f03e7b54075599cb2392c6b0fc/transformed/navigation-fragment-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] /Users/anik/.gradle/caches/transforms-3/0d89d7f03e7b54075599cb2392c6b0fc/transformed/navigation-fragment-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/anik/.gradle/caches/transforms-3/11108c40f6b4b45114902fb5915eea42/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/anik/.gradle/caches/transforms-3/11108c40f6b4b45114902fb5915eea42/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/anik/.gradle/caches/transforms-3/4c85c356f92b73b2caf8ebde0606e00e/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/anik/.gradle/caches/transforms-3/4c85c356f92b73b2caf8ebde0606e00e/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/anik/.gradle/caches/transforms-3/bbd0db670b9e967ac2d81e2396acc52e/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/anik/.gradle/caches/transforms-3/bbd0db670b9e967ac2d81e2396acc52e/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /Users/anik/.gradle/caches/transforms-3/fa577c448a4470607199f417bb42a1fb/transformed/firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /Users/anik/.gradle/caches/transforms-3/fa577c448a4470607199f417bb42a1fb/transformed/firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/anik/.gradle/caches/transforms-3/6a8526c0a916dd9f10beea66e0647d2e/transformed/firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/anik/.gradle/caches/transforms-3/6a8526c0a916dd9f10beea66e0647d2e/transformed/firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/anik/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/anik/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/anik/.gradle/caches/transforms-3/451a339f9d7b85ee9761c9ed0292dc01/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/anik/.gradle/caches/transforms-3/451a339f9d7b85ee9761c9ed0292dc01/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/anik/.gradle/caches/transforms-3/2581d85fc0115947fa8dd61170fef907/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/anik/.gradle/caches/transforms-3/2581d85fc0115947fa8dd61170fef907/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/anik/.gradle/caches/transforms-3/ad00e687029d6285b30ef24b68df00f9/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/anik/.gradle/caches/transforms-3/ad00e687029d6285b30ef24b68df00f9/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/anik/.gradle/caches/transforms-3/9f6733b0c4b609a882c1c324613f0567/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/anik/.gradle/caches/transforms-3/9f6733b0c4b609a882c1c324613f0567/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/anik/.gradle/caches/transforms-3/b40d675db1d8c4f3d4c27b6c92ca64e7/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/anik/.gradle/caches/transforms-3/b40d675db1d8c4f3d4c27b6c92ca64e7/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/anik/.gradle/caches/transforms-3/de2025e10aba0f016ce825fe756a311e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/anik/.gradle/caches/transforms-3/de2025e10aba0f016ce825fe756a311e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/anik/.gradle/caches/transforms-3/9b06a609ac6e103661f3eb212be424d1/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/anik/.gradle/caches/transforms-3/9b06a609ac6e103661f3eb212be424d1/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/anik/.gradle/caches/transforms-3/be8acfc1224c2df79de1429316a11361/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/anik/.gradle/caches/transforms-3/be8acfc1224c2df79de1429316a11361/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/4c3808b388e597e265ab83d575a5d780/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/4c3808b388e597e265ab83d575a5d780/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/anik/.gradle/caches/transforms-3/95d3731dfc825bdcfb2d0ccab26ee3ed/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/anik/.gradle/caches/transforms-3/95d3731dfc825bdcfb2d0ccab26ee3ed/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/anik/.gradle/caches/transforms-3/ecfa95db6c90456b9c3d62be6e40af85/transformed/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/anik/.gradle/caches/transforms-3/ecfa95db6c90456b9c3d62be6e40af85/transformed/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/anik/.gradle/caches/transforms-3/c3a4ffde565e669fffa13b86ca1f1516/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/anik/.gradle/caches/transforms-3/c3a4ffde565e669fffa13b86ca1f1516/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/anik/.gradle/caches/transforms-3/cc80685d731bda696262ba37c4571488/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/anik/.gradle/caches/transforms-3/cc80685d731bda696262ba37c4571488/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/anik/.gradle/caches/transforms-3/24ae2deaf93d3ebe05544011e679deb8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/anik/.gradle/caches/transforms-3/24ae2deaf93d3ebe05544011e679deb8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/anik/.gradle/caches/transforms-3/65d1d73e580ba527f5c80b9f2f30e9eb/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/anik/.gradle/caches/transforms-3/65d1d73e580ba527f5c80b9f2f30e9eb/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] /Users/anik/.gradle/caches/transforms-3/113a6ca7f81f3274b6974ac42589dd73/transformed/navigation-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] /Users/anik/.gradle/caches/transforms-3/113a6ca7f81f3274b6974ac42589dd73/transformed/navigation-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/anik/.gradle/caches/transforms-3/f0727e18754303d1e3315ddda5dbdbda/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/anik/.gradle/caches/transforms-3/f0727e18754303d1e3315ddda5dbdbda/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/anik/.gradle/caches/transforms-3/fb82cd814d6b88b1ca417815991711ed/transformed/appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/anik/.gradle/caches/transforms-3/fb82cd814d6b88b1ca417815991711ed/transformed/appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.0.0] /Users/anik/.gradle/caches/transforms-3/b27bb07903eaf3cd5f3a3227bb279aad/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/anik/.gradle/caches/transforms-3/b27bb07903eaf3cd5f3a3227bb279aad/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/anik/.gradle/caches/transforms-3/3204680fb4b944995355cb67e2d4416a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/anik/.gradle/caches/transforms-3/3204680fb4b944995355cb67e2d4416a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/anik/.gradle/caches/transforms-3/429829a900074ab331793515e7b0d630/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/anik/.gradle/caches/transforms-3/429829a900074ab331793515e7b0d630/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/anik/.gradle/caches/transforms-3/366d65d445297f8fde8f73cd755ab914/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/anik/.gradle/caches/transforms-3/366d65d445297f8fde8f73cd755ab914/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/anik/.gradle/caches/transforms-3/fdd32f901d4bb1d5d33bddeb84a905c7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/anik/.gradle/caches/transforms-3/fdd32f901d4bb1d5d33bddeb84a905c7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/anik/.gradle/caches/transforms-3/29de5575f9927728f2259ca80dea1987/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/anik/.gradle/caches/transforms-3/29de5575f9927728f2259ca80dea1987/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] /Users/anik/.gradle/caches/transforms-3/be0e5dbc3ffa9d55c859863f50a3932c/transformed/drawerlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] /Users/anik/.gradle/caches/transforms-3/be0e5dbc3ffa9d55c859863f50a3932c/transformed/drawerlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/anik/.gradle/caches/transforms-3/cb56a5c2bd722b36acb08c4428763c51/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/anik/.gradle/caches/transforms-3/cb56a5c2bd722b36acb08c4428763c51/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/anik/.gradle/caches/transforms-3/5b6087d2a888dc8cd66652dafdfd98d8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/anik/.gradle/caches/transforms-3/5b6087d2a888dc8cd66652dafdfd98d8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/anik/.gradle/caches/transforms-3/b00d5cc1ee2b8898b26695c875041071/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/anik/.gradle/caches/transforms-3/b00d5cc1ee2b8898b26695c875041071/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/anik/.gradle/caches/transforms-3/dbe6632ea1830f7b528d4645a38df2bc/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/anik/.gradle/caches/transforms-3/dbe6632ea1830f7b528d4645a38df2bc/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/anik/.gradle/caches/transforms-3/59de3fbf10637c91661e64b379908af7/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/anik/.gradle/caches/transforms-3/59de3fbf10637c91661e64b379908af7/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/anik/.gradle/caches/transforms-3/dbc66d810aadfcbae204aa9f2c96beac/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/anik/.gradle/caches/transforms-3/dbc66d810aadfcbae204aa9f2c96beac/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/anik/.gradle/caches/transforms-3/2f7c01c10d3d7134859f80fe1123d2f3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/anik/.gradle/caches/transforms-3/2f7c01c10d3d7134859f80fe1123d2f3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.0] /Users/anik/.gradle/caches/transforms-3/cd7eb0f95dc2193681132d37a0a6e3c3/transformed/navigation-common-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] /Users/anik/.gradle/caches/transforms-3/cd7eb0f95dc2193681132d37a0a6e3c3/transformed/navigation-common-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/anik/.gradle/caches/transforms-3/179bb343f7a6cb4f265a076d12a07093/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/anik/.gradle/caches/transforms-3/179bb343f7a6cb4f265a076d12a07093/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/anik/.gradle/caches/transforms-3/0d6128869f3f5054df81b46d7aeb5c68/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/anik/.gradle/caches/transforms-3/0d6128869f3f5054df81b46d7aeb5c68/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/anik/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/anik/.gradle/caches/transforms-3/a6ed9dfb3abf7d8541f7a1d01bf1d39b/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/anik/.gradle/caches/transforms-3/048a965a9baba68ce9534c35414bd90c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/anik/.gradle/caches/transforms-3/048a965a9baba68ce9534c35414bd90c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/anik/.gradle/caches/transforms-3/a99a6a3ef3fca7f75c17b47439ee7e66/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/anik/.gradle/caches/transforms-3/a99a6a3ef3fca7f75c17b47439ee7e66/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/anik/.gradle/caches/transforms-3/90d7d96226831d3e0023a5953d8ff3fd/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/anik/.gradle/caches/transforms-3/90d7d96226831d3e0023a5953d8ff3fd/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/anik/.gradle/caches/transforms-3/dc586ffb92118e9bf45ac9249032d001/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/anik/.gradle/caches/transforms-3/dc586ffb92118e9bf45ac9249032d001/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/anik/.gradle/caches/transforms-3/2818312e8fa5a85d4358b773232e703c/transformed/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/anik/.gradle/caches/transforms-3/2818312e8fa5a85d4358b773232e703c/transformed/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/anik/.gradle/caches/transforms-3/83ef5a2163392347fc8488b35f811353/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/anik/.gradle/caches/transforms-3/83ef5a2163392347fc8488b35f811353/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/anik/.gradle/caches/transforms-3/73024ad51a4df5238a90a9d634a365dd/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/anik/.gradle/caches/transforms-3/73024ad51a4df5238a90a9d634a365dd/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/anik/.gradle/caches/transforms-3/11a446e7d11d9332c5acc6192805398e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/anik/.gradle/caches/transforms-3/11a446e7d11d9332c5acc6192805398e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/anik/.gradle/caches/transforms-3/5ef5de6b86aba927bed289e100b66e4d/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/anik/.gradle/caches/transforms-3/5ef5de6b86aba927bed289e100b66e4d/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/anik/.gradle/caches/transforms-3/c11d12a2baf277b837d8806c6f87fc44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/anik/.gradle/caches/transforms-3/c11d12a2baf277b837d8806c6f87fc44/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/anik/.gradle/caches/transforms-3/e8ef85e514fc42cbbad75b9b3a8e6cfc/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/anik/.gradle/caches/transforms-3/e8ef85e514fc42cbbad75b9b3a8e6cfc/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/anik/.gradle/caches/transforms-3/5d1418b340b83a1b53ef0e186932447b/transformed/lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/anik/.gradle/caches/transforms-3/5d1418b340b83a1b53ef0e186932447b/transformed/lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/anik/.gradle/caches/transforms-3/dd74e86cd0fe077f16c65cf8f486f9f4/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/anik/.gradle/caches/transforms-3/dd74e86cd0fe077f16c65cf8f486f9f4/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/anik/.gradle/caches/transforms-3/5a79dbaec78c55095c3b2993d1c2e4b8/transformed/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/anik/.gradle/caches/transforms-3/5a79dbaec78c55095c3b2993d1c2e4b8/transformed/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/anik/.gradle/caches/transforms-3/d2e0dab81ac4ce61a6a5b8e8d3d5f158/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/anik/.gradle/caches/transforms-3/d2e0dab81ac4ce61a6a5b8e8d3d5f158/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/anik/.gradle/caches/transforms-3/4fc344dd16f2c32b18557242fa2f903e/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/anik/.gradle/caches/transforms-3/4fc344dd16f2c32b18557242fa2f903e/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/anik/.gradle/caches/transforms-3/d29c7a8a10622f03cba94cde485782f1/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/anik/.gradle/caches/transforms-3/d29c7a8a10622f03cba94cde485782f1/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/anik/.gradle/caches/transforms-3/607ff11b516ddc96487249f810d47dc2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/anik/.gradle/caches/transforms-3/607ff11b516ddc96487249f810d47dc2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/anik/.gradle/caches/transforms-3/e0704842989cea6c82cf2a91963d9437/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/anik/.gradle/caches/transforms-3/e0704842989cea6c82cf2a91963d9437/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/anik/.gradle/caches/transforms-3/bcde78bc88dd626eb99fc345b357b7d4/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/anik/.gradle/caches/transforms-3/bcde78bc88dd626eb99fc345b357b7d4/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/anik/.gradle/caches/transforms-3/0e4fe9ac0069942711d5424f8db25fa9/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/anik/.gradle/caches/transforms-3/0e4fe9ac0069942711d5424f8db25fa9/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.41.0] /Users/anik/.gradle/caches/transforms-3/5a34276306840fe4f232f830cdf6420d/transformed/grpc-android-1.41.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.41.0] /Users/anik/.gradle/caches/transforms-3/5a34276306840fe4f232f830cdf6420d/transformed/grpc-android-1.41.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anik/anik/android-dev-course/final-project/ynumedicalapp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/anik/.gradle/caches/transforms-3/b40d675db1d8c4f3d4c27b6c92ca64e7/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/anik/.gradle/caches/transforms-3/b40d675db1d8c4f3d4c27b6c92ca64e7/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/anik/.gradle/caches/transforms-3/de2025e10aba0f016ce825fe756a311e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/anik/.gradle/caches/transforms-3/de2025e10aba0f016ce825fe756a311e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/4c3808b388e597e265ab83d575a5d780/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/4c3808b388e597e265ab83d575a5d780/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.41.0] /Users/anik/.gradle/caches/transforms-3/5a34276306840fe4f232f830cdf6420d/transformed/grpc-android-1.41.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.41.0] /Users/anik/.gradle/caches/transforms-3/5a34276306840fe4f232f830cdf6420d/transformed/grpc-android-1.41.0/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:26:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/anik/.gradle/caches/transforms-3/b40d675db1d8c4f3d4c27b6c92ca64e7/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/anik/.gradle/caches/transforms-3/b40d675db1d8c4f3d4c27b6c92ca64e7/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/anik/.gradle/caches/transforms-3/de2025e10aba0f016ce825fe756a311e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/anik/.gradle/caches/transforms-3/de2025e10aba0f016ce825fe756a311e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/4c3808b388e597e265ab83d575a5d780/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/4c3808b388e597e265ab83d575a5d780/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:27:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:32:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:31:13-84
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/anik/.gradle/caches/transforms-3/9ef99bc341c2e4ae4f5f0d3caf64d0d3/transformed/firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.3] /Users/anik/.gradle/caches/transforms-3/3bca11d1bf4794019e470a82d0f20731/transformed/firebase-database-20.0.3/AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.0.0] /Users/anik/.gradle/caches/transforms-3/2953c05b1f60568608221ff5c9abf2ea/transformed/firebase-firestore-24.0.0/AndroidManifest.xml:21:17-111
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/anik/.gradle/caches/transforms-3/99e33d49eb6cb3c8d9236007e84fbe53/transformed/firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+meta-data#com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar
+ADDED from [com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-functions:20.0.1] /Users/anik/.gradle/caches/transforms-3/a022581ad232d04ac89be2a8d4d04390/transformed/firebase-functions-20.0.1/AndroidManifest.xml:19:17-111
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/anik/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/anik/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/anik/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/anik/.gradle/caches/transforms-3/b5289ac9a641f59dd763ec5754e962f8/transformed/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/anik/.gradle/caches/transforms-3/b40d675db1d8c4f3d4c27b6c92ca64e7/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/anik/.gradle/caches/transforms-3/b40d675db1d8c4f3d4c27b6c92ca64e7/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/anik/.gradle/caches/transforms-3/de2025e10aba0f016ce825fe756a311e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/anik/.gradle/caches/transforms-3/de2025e10aba0f016ce825fe756a311e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/4c3808b388e597e265ab83d575a5d780/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/4c3808b388e597e265ab83d575a5d780/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/anik/.gradle/caches/transforms-3/b40d675db1d8c4f3d4c27b6c92ca64e7/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/anik/.gradle/caches/transforms-3/b40d675db1d8c4f3d4c27b6c92ca64e7/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/anik/.gradle/caches/transforms-3/b8f49b597d11b0939928284c62138a13/transformed/firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/anik/.gradle/caches/transforms-3/c4a6da4c0ac3c4d3812661bf1de1e503/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/anik/.gradle/caches/transforms-3/18c0e629690351d48432cfb385b45491/transformed/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/anik/.gradle/caches/transforms-3/ed8893f1a326696110e4d10af8917bc2/transformed/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/anik/.gradle/caches/transforms-3/de2025e10aba0f016ce825fe756a311e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/anik/.gradle/caches/transforms-3/de2025e10aba0f016ce825fe756a311e/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/anik/.gradle/caches/transforms-3/27eadac57959477b0397f880b5ac0731/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/anik/.gradle/caches/transforms-3/be8acfc1224c2df79de1429316a11361/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/anik/.gradle/caches/transforms-3/be8acfc1224c2df79de1429316a11361/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/anik/.gradle/caches/transforms-3/24ae2deaf93d3ebe05544011e679deb8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/anik/.gradle/caches/transforms-3/24ae2deaf93d3ebe05544011e679deb8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/anik/.gradle/caches/transforms-3/24ae2deaf93d3ebe05544011e679deb8/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58

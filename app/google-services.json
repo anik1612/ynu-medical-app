@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "694590417745",
+    "firebase_url": "https://ynu-medical-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ynu-medical",
+    "storage_bucket": "ynu-medical.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694590417745:android:fb9bdeff43b51931034170",
+        "android_client_info": {
+          "package_name": "com.example.ynumedical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694590417745-322q7uit79uvt9vgv1pklbov5ug35n90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-FLI9ayvRLgg6fqF6GxbYWnSHfAfhyfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694590417745-322q7uit79uvt9vgv1pklbov5ug35n90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

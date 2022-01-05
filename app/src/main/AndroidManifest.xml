@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ynumedical" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.B07Project" >
+        <activity
+            android:name="com.example.ynumedical.user_information.PatientViewVisitedDoctorsActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.ynumedical.appointment_activities.PatientViewPastAppointmentActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.ynumedical.appointment_activities.DoctorViewAvailabilityActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.ynumedical.user_information.DoctorPatientCheckupActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.ynumedical.appointment_activities.PatientBookAppointmentActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.ynumedical.appointment_activities.DoctorViewAppointmentActivity"
+            android:exported="true" />
+        <activity android:name="com.example.ynumedical.appointment_activities.PatientViewAppointmentActivity" />
+        <activity android:name="com.example.ynumedical.appointment_activities.PatientChooseDoctorActivity" />
+        <activity android:name="com.example.ynumedical.user_information.PatientActivity" />
+        <activity android:name="com.example.ynumedical.user_information.DoctorActivity" />
+        <activity android:name="com.example.ynumedical.user_information.PatientSignup" />
+        <activity android:name="com.example.ynumedical.user_information.DoctorSignup" />
+        <activity android:name="com.example.ynumedical.LoginPage" />
+        <activity android:name="com.example.ynumedical.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
